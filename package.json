@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-web",
+  "version": "1.0.0",
+  "description": "Portafolio web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailDev":"npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/estilos.css --watch",
+    "tailDevpro":"npx tailwindcss -o ./src/css/style.css --minify"
+  },
+  "author": "Francisco Soto Flores",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
+  }
+}
